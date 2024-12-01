@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ES2020",
+    "strict": true,
+    "lib": ["DOM", "ES2021"], // Ensure DOM and ES libraries are included
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true // Optional: avoid type-checking node_modules
+  }
+}
